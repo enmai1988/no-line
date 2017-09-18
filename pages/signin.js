@@ -9,6 +9,7 @@ class Signin extends React.Component {
   }
 
   render() {
+    console.log('signin props: ', this.props);
     const loginBtns = [
       {icon: 'facebook', color: 'facebook', name: 'Facebook'},
       {icon: 'google plus', color: 'google plus', name: 'Google'},

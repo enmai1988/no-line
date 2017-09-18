@@ -29,7 +29,7 @@ class Layout extends React.Component {
     const menus = [
       {key: 'order', href: '/', name: 'Order'},
       {key: 'history', href: '/history', name: 'History'},
-      {key: 'setting', href: '/setting', name: 'Setting'},
+      {key: 'settings', href: '/settings', name: 'Settings'},
       {key: 'about', href: '/about', name: 'About'}
     ];
 
@@ -66,6 +66,7 @@ class Layout extends React.Component {
           </Sidebar>
           <Sidebar.Pusher>
             <Segment 
+              basic
               inverted
               color='grey'
               style={{height: '100vh', borderRadius: 0}}

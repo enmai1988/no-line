@@ -20,15 +20,10 @@ nextApp
     app.use(middleware.passport.session());
 
     // pages endpoint
-    app.get('/', (req, res) => nextApp.render(req, res, '/', req.query));
-    app.get('/setting', (req, res) => nextApp.render(req, res, '/setting', req.query));
-    app.get('/signin', (req, res) => {
-      if (req.isAuthenticated()) {
-        return res.redirect('/'); // redirect to homepage if user is authenticated 
-      }
-      return nextApp.render(req, res, '/signin', req.query);
-    });
-    app.get('/signout', middleware.auth.signout);
+    app.get('/', (req, res) => routes.pages.index(req, res, nextApp));
+    app.get('/settings', (req, res) => routes.pages.settings(req, res, nextApp));
+    app.get('/signin', (req, res) => routes.pages.signin(req, res, nextApp));
+    app.get('/signout', routes.pages.signout);
 
     // data endpoint
     app.use('/auth', routes.auth);

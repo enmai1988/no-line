@@ -41,8 +41,3 @@ module.exports.isAuthorized = async (req, res, next) => {
   // }
   next();
 };
-
-module.exports.signout = (req, res) => {
-  req.logout();
-  res.redirect('/');
-};
