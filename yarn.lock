@@ -1354,13 +1354,13 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
 
-body-parser@^1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.1.tgz#9c1629370bcfd42917f30641a2dcbe2ec50d4c26"
+body-parser@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
   dependencies:
     bytes "3.0.0"
     content-type "~1.0.4"
-    debug "2.6.8"
+    debug "2.6.9"
     depd "~1.1.1"
     http-errors "~1.6.2"
     iconv-lite "0.4.19"
@@ -1941,6 +1941,12 @@ debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.3.2, debug@^2.4.5, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
+debug@2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0, debug@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.0.1.tgz#0564c612b521dc92d9f2988f0549e34f9c98db64"
@@ -2430,6 +2436,10 @@ etag@1.8.0, etag@~1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.0.tgz#6f631aef336d6c46362b51764044ce216be3c051"
 
+etag@~1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
+
 event-emitter@^0.3.5, event-emitter@~0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/event-emitter/-/event-emitter-0.3.5.tgz#df8c69eef1647923c7157b9ce83840610b02cc39"
@@ -2503,9 +2513,9 @@ express-session@^1.15.5:
     uid-safe "~2.1.4"
     utils-merge "1.0.0"
 
-express@^4.15.4:
-  version "4.15.4"
-  resolved "https://registry.yarnpkg.com/express/-/express-4.15.4.tgz#032e2253489cf8fce02666beca3d11ed7a2daed1"
+express@^4.15.5:
+  version "4.15.5"
+  resolved "https://registry.yarnpkg.com/express/-/express-4.15.5.tgz#670235ca9598890a5ae8170b83db722b842ed927"
   dependencies:
     accepts "~1.3.3"
     array-flatten "1.1.1"
@@ -2513,13 +2523,13 @@ express@^4.15.4:
     content-type "~1.0.2"
     cookie "0.3.1"
     cookie-signature "1.0.6"
-    debug "2.6.8"
+    debug "2.6.9"
     depd "~1.1.1"
     encodeurl "~1.0.1"
     escape-html "~1.0.3"
     etag "~1.8.0"
-    finalhandler "~1.0.4"
-    fresh "0.5.0"
+    finalhandler "~1.0.6"
+    fresh "0.5.2"
     merge-descriptors "1.0.1"
     methods "~1.1.2"
     on-finished "~2.3.0"
@@ -2528,8 +2538,8 @@ express@^4.15.4:
     proxy-addr "~1.1.5"
     qs "6.5.0"
     range-parser "~1.2.0"
-    send "0.15.4"
-    serve-static "1.12.4"
+    send "0.15.6"
+    serve-static "1.12.6"
     setprototypeof "1.0.3"
     statuses "~1.3.1"
     type-is "~1.6.15"
@@ -2622,15 +2632,15 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
-finalhandler@~1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.0.4.tgz#18574f2e7c4b98b8ae3b230c21f201f31bdb3fb7"
+finalhandler@~1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.0.6.tgz#007aea33d1a4d3e42017f624848ad58d212f814f"
   dependencies:
-    debug "2.6.8"
+    debug "2.6.9"
     encodeurl "~1.0.1"
     escape-html "~1.0.3"
     on-finished "~2.3.0"
-    parseurl "~1.3.1"
+    parseurl "~1.3.2"
     statuses "~1.3.1"
     unpipe "~1.0.0"
 
@@ -2714,6 +2724,10 @@ forwarded@~0.1.0:
 fresh@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
+
+fresh@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
 friendly-errors-webpack-plugin@1.5.0:
   version "1.5.0"
@@ -3644,9 +3658,9 @@ jest@^21.1.0:
   dependencies:
     jest-cli "^21.1.0"
 
-js-beautify@^1.6.14:
-  version "1.6.14"
-  resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.6.14.tgz#d3b8f7322d02b9277d58bd238264c327e58044cd"
+js-beautify@^1.7.1:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.7.3.tgz#3f563067162cd0635c8611686d1fa0bb1448773a"
   dependencies:
     config-chain "~1.1.5"
     editorconfig "^0.13.2"
@@ -4590,6 +4604,10 @@ parseurl@~1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.1.tgz#c8ab8c9223ba34888aa64a297b28853bec18da56"
 
+parseurl@~1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
+
 passport-facebook@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/passport-facebook/-/passport-facebook-2.1.1.tgz#c39d0b52ae4d59163245a4e21a7b9b6321303311"
@@ -4825,9 +4843,9 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier-eslint@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-8.1.0.tgz#8b0366e180c0d4ec1f76ccd635bb20e3f47bc156"
+prettier-eslint@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-8.1.1.tgz#826d71d79389c93d59edd56e3f0d58264a6ce36f"
   dependencies:
     common-tags "^1.4.0"
     dlv "^1.1.0"
@@ -5290,9 +5308,9 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
-retry-as-promised@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/retry-as-promised/-/retry-as-promised-2.3.0.tgz#27bf5ccd999932b31665696825cf3630c27c562d"
+retry-as-promised@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/retry-as-promised/-/retry-as-promised-2.3.1.tgz#f75059183f9730771c09bad1eed57537931cbc9d"
   dependencies:
     bluebird "^3.4.6"
     debug "^2.2.0"
@@ -5364,9 +5382,9 @@ sax@^1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-semantic-ui-react@^0.73.1:
-  version "0.73.1"
-  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.73.1.tgz#37d6a35f6baf941f440c7543d53caf8843661cc3"
+semantic-ui-react@^0.74.2:
+  version "0.74.2"
+  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.74.2.tgz#0a55f6f22dd61780600664931813f302262c330d"
   dependencies:
     babel-runtime "^6.25.0"
     classnames "^2.2.5"
@@ -5385,7 +5403,25 @@ semver@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
-send@0.15.4, send@^0.15.3:
+send@0.15.6:
+  version "0.15.6"
+  resolved "https://registry.yarnpkg.com/send/-/send-0.15.6.tgz#20f23a9c925b762ab82705fe2f9db252ace47e34"
+  dependencies:
+    debug "2.6.9"
+    depd "~1.1.1"
+    destroy "~1.0.4"
+    encodeurl "~1.0.1"
+    escape-html "~1.0.3"
+    etag "~1.8.1"
+    fresh "0.5.2"
+    http-errors "~1.6.2"
+    mime "1.3.4"
+    ms "2.0.0"
+    on-finished "~2.3.0"
+    range-parser "~1.2.0"
+    statuses "~1.3.1"
+
+send@^0.15.3:
   version "0.15.4"
   resolved "https://registry.yarnpkg.com/send/-/send-0.15.4.tgz#985faa3e284b0273c793364a35c6737bd93905b9"
   dependencies:
@@ -5419,22 +5455,22 @@ sendgrid@^5.2.3:
     mailparser "^0.6.1"
     sendgrid-rest "^2.3.0"
 
-sequelize-cli@^3.0.0-3:
-  version "3.0.0-3"
-  resolved "https://registry.yarnpkg.com/sequelize-cli/-/sequelize-cli-3.0.0-3.tgz#872506265b0b0d7051a322192cbff524a5aab373"
+sequelize-cli@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sequelize-cli/-/sequelize-cli-3.0.0.tgz#5bad6bb83f233923083007543b38182ac3647bf9"
   dependencies:
     bluebird "^3.5.0"
     cli-color "^1.2.0"
     fs-extra "^4.0.1"
-    js-beautify "^1.6.14"
+    js-beautify "^1.7.1"
     lodash "^4.17.4"
     resolve "^1.4.0"
     umzug "^2.0.1"
     yargs "^8.0.1"
 
-sequelize@^4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.8.4.tgz#b13c9479fc745eca06f1a6a4a8fda6cac607b607"
+sequelize@^4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.11.0.tgz#0a75393aff97f4db584c88df8b76f38924cdc305"
   dependencies:
     bluebird "^3.4.6"
     cls-bluebird "^2.0.1"
@@ -5446,7 +5482,7 @@ sequelize@^4.8.4:
     lodash "^4.17.1"
     moment "^2.13.0"
     moment-timezone "^0.5.4"
-    retry-as-promised "^2.0.0"
+    retry-as-promised "^2.3.1"
     semver "^5.0.1"
     terraformer-wkt-parser "^1.1.2"
     toposort-class "^1.0.1"
@@ -5454,14 +5490,14 @@ sequelize@^4.8.4:
     validator "^8.0.0"
     wkx "^0.4.1"
 
-serve-static@1.12.4:
-  version "1.12.4"
-  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.12.4.tgz#9b6aa98eeb7253c4eedc4c1f6fdbca609901a961"
+serve-static@1.12.6:
+  version "1.12.6"
+  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.12.6.tgz#b973773f63449934da54e5beba5e31d9f4211577"
   dependencies:
     encodeurl "~1.0.1"
     escape-html "~1.0.3"
-    parseurl "~1.3.1"
-    send "0.15.4"
+    parseurl "~1.3.2"
+    send "0.15.6"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
@@ -5515,13 +5551,13 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-slate-dev-logger@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.2.tgz#9cd57e2e497c5ae634105076d95e517ed42e836e"
+slate-dev-logger@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.9.tgz#a021a94c23215bfef0fcf4d504553746908103a8"
 
-slate@^0.24.1:
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.24.1.tgz#ba145925e53b4e3f6b8846d2b61c621d1ef75d5b"
+slate@^0.25.1:
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.25.1.tgz#eb6aa2eae4b53a8aa529aa224c8f529eb4cb7abc"
   dependencies:
     debug "^2.3.2"
     direction "^0.1.5"
@@ -5530,7 +5566,7 @@ slate@^0.24.1:
     is-empty "^1.0.0"
     is-plain-object "^2.0.4"
     lodash "^4.17.4"
-    slate-dev-logger "^0.1.2"
+    slate-dev-logger "^0.1.9"
     type-of "^2.0.1"
 
 slice-ansi@0.0.4:
